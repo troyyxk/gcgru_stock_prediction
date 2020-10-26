@@ -39,6 +39,7 @@ config.ini
 | batch_size       | Batch size      |
 | th | Threshold for ε-insensitive accuracy      |
 
+### Data Address
 The form of data is address is compose of several parts 
 
 ``./data/data/[dataset]/[dataset]_[time duration]_price.csv``
@@ -47,6 +48,17 @@ For in stance:
 
 ``./data/data/dow/dow_1day_price.csv``
 
+### Adjacency Matrix Address
+The form of data is address is compose of several parts 
+
+``./data/adj/[dataset]/[time duration]/[dataset]_[time duration]_[cut off]_01_price.csv``
+
+For in stance:
+
+``./data/adj/dow/1day/dow_1day_090_01_corr.csv``
+
+
+*** ``[dataset]`` and ``[time duration]`` must be the same for both data address and adjacency matrix address
 
 
 ## Directory Structure
