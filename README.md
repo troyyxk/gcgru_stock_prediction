@@ -40,8 +40,13 @@ config.ini
 | th | Threshold for ε-insensitive accuracy      |
 
 The form of data is address is compose of several parts 
+
+``./data/data/[dataset]/[dataset]_[time duration]_price.csv``
+
+For in stance:
+
 ``./data/data/dow/dow_1day_price.csv``
-`./data/data/dow/dow_1day_price.csv`
+
 
 
 ## Directory Structure
