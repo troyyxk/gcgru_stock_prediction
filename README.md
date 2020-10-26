@@ -29,9 +29,15 @@ config.ini
 
 | Hyper Parameter        | Definition           |
 | ------------- |:-------------:|
-| col 3 is      | right-aligned |
-| col 2 is      | centered      |
-| zebra stripes | are neat      |
+| data_addr        | The address for the data(stock prices) in use |
+| adj_addr       | The address for the adjcency matrix in use |
+| s_index       | The index of stock to predict |
+| lr       | Learning rate |
+| n_neurons       | Number of neurons in GRU layer |
+| seq_len       | Sequence length |
+| n_epochs       | Number of epochs |
+| batch_size       | Batch size      |
+| th | Threshold for ε-insensitive accuracy      |
 
 ## Directory Structure
 
