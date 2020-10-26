@@ -39,7 +39,10 @@ config.ini
 | batch_size       | Batch size      |
 | th | Threshold for ε-insensitive accuracy      |
 
-The form of data is address is compose of several parts ``./data/data/dow/dow_1day_price.csv``
+The form of data is address is compose of several parts 
+``./data/data/dow/dow_1day_price.csv``
+`./data/data/dow/dow_1day_price.csv`
+
 
 ## Directory Structure
 
