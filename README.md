@@ -25,6 +25,7 @@ Hyper parameters can be changed at the file
 ```
 config.ini
 ```
+### Hyper Parameter
 
 ## Directory Structure
 
