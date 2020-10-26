@@ -38,44 +38,30 @@ gcgru_stock_prediction
 ├── image
 │   ├── gcc.jpeg
 │   └── model.jpeg
-├── data
-│   ├── adj
-│   │   ├── dow
-
-│   ├── react-components
-│   │   ├── Home
-│   │   │   ├── static
-│   │   │   │   └── home-books.jpg
-│   │   │   ├── index.js
-│   │   │   └── styles.css
-│   │   ├── Queue
-│   │   │   ├── index.js
-│   │   │   └── styles.css
-│   │   ├── Student
-│   │   │   ├── index.js
-│   │   │   └── styles.css
-│   │   └── ...
-│   └── serviceWorker.js
-├── package-lock.json
-└── src
-    ├── actions
-    │   └── queue.js
-    ├── react-components
-    │   ├── Home
-    │   │   ├── static
-    │   │   │   └── home-books.jpg
-    │   │   ├── index.js
-    │   │   └── styles.css
-    │   ├── Queue
-    │   │   ├── index.js
-    │   │   └── styles.css
-    │   ├── Student
-    │   │   ├── index.js
-    │   │   └── styles.css
-    │   └── ...
-    ├── index.js
-    ├── index.css
-    ├── App.js
-    ├── App.css
-    └── serviceWorker.js
+└── data
+    ├── adj
+    │   ├── dow
+    │   │   ├── 1day
+    │   │   │   ├── dow_1day_050_01_corr.csv
+    │   │   │   ├── dow_1day_055_01_corr.csv
+    │   │   │   └── ...
+    │   │   └── ...
+    │   └── etf
+    │       ├── 1day
+    │       │   ├── etf_1day_050_01_corr.csv
+    │       │   ├── etf_1day_055_01_corr.csv
+    │       │   └── ...
+    │       └── ...
+    └── data
+        ├── dow
+        |   ├── dow_10min_price.csv
+        |   ├── dow_15min_price.csv
+        |   ├── dow_1day_price.csv
+        |   ├── dow_1h_price.csv
+        |   └── dow_30min_price.csv
+        └── etf
+            ├── etf_15min_price.csv
+            ├── etf_1day_price.csv
+            ├── etf_1h_price.csv
+            └── etf_30min_price.csv
 ```
